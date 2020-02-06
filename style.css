@@ -1,0 +1,86 @@
+body { 
+	background-color: whitesmoke; 
+	background-image: url(bc.JPG.);
+	color: #007b8a ; 
+	font-family: 'HelveticaNeue-Light','Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,sans-serif !important
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: larger;
+}
+h1 { 
+	color: #686868;
+	font-weight: 120;
+	letter-spacing: 10px
+	font-size: 60px;
+	text-transform: uppercase;
+ }
+ a {
+ 	color: #686868;
+ 	text-transform:none;
+ 	text-decoration: none;
+
+ }
+ a:hover {
+ 	color: rgba(255, 99, 71, 0.5);
+ }
+ h2 {
+ 	text-transform: uppercase;
+ 	font-weight: 120;
+ }
+div {
+	background: white;                         /* White background */
+padding: 90px;                             /* Internal space */
+ 
+box-shadow: 0 10px 30px rgba(0,0,0,.1);  
+padding: 40px; /* will put 40px of padding everywhere */  /* Light shadow */
+padding: 50px 24px; /* 0px of top/bottom padding and 24px of left/right padding*/
+border-radius: 4px;
+width: 900px;     /* Fix the width first*/
+margin: 40px auto; /* Let CSS compute the same left & right margins automatically*/
+}
+
+
+img {
+ 
+	height: 200px;
+	border-radius: 1%;
+}
+
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px
+
+	}
+}
+
+.container {
+	margin: 800px auto
+				background-color: rgb(244, 126, 76) ;
+	background-color: rgba(255, 99, 71, 0.5)
+}
+
+.btn-blue {
+	background: rgba(255, 99, 71, 0.1);
+	color: white
+	border-radius: 4px;
+	padding: 15px 20px ;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+
+}
+.list-inline i {
+	font-size: 50px;
+}
+
+
+
+
+
